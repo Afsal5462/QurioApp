@@ -10,7 +10,7 @@ import plotly.express as px
 import pandas as pd
 #cod
 # Set your API Key  
-genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
+genai.configure(api_key="AIzaSyD9RsCzKBYRUm8RK6deeeQQAqkP7GP2Mag")
 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
 
 st.set_page_config(page_title="Smart Document Quiz Generator", page_icon="🧠", layout="wide")
