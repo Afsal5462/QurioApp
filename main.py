@@ -8,8 +8,8 @@ import re
 from datetime import datetime
 import plotly.express as px
 import pandas as pd
-
-# Set your API Key
+#code1
+# Set your API Key  
 genai.configure(api_key=st.secrets["GEMINI_API_KEY"])
 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
 
