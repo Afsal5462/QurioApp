@@ -8,7 +8,7 @@ import re
 from datetime import datetime
 import plotly.express as px
 import pandas as pd
-#code
+#codes
 # Set your API Key  
 genai.configure(api_key="AIzaSyD9RsCzKBYRUm8RK6deeeQQAqkP7GP2Mag")
 model = genai.GenerativeModel(model_name="models/gemini-1.5-flash")
